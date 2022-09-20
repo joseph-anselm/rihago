@@ -40,8 +40,21 @@
 .bg-warning {
   background-color: #f48635 !important;
 }
-.btn-secondary {
+
+.nav-item .nav-link {
+  color: #313397;
+  font-weight: 600;
+}
+.nav-item .nav-link:hover {
+  color: #e8722e;
+  border-bottom: 1px solid #313397;
+}
+
+.nav-item .nav-link .btn-secondary {
   background-color: #e8722e;
+}
+.nav-item .active {
+  border-bottom: 1px solid #313397;
 }
 .card-body p {
   position: absolute;
@@ -61,4 +74,9 @@
   color: #313397;
   margin: 5px;
   font-size: 1.5em;
+}
+ol,
+ul {
+  padding-left: 0;
+  list-style: none;
 }
