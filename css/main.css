@@ -2,6 +2,10 @@
   color: #f48635;
   border-color: #f48635;
 }
+.btn-warning {
+  color: #ffffff;
+  background-color: #f48635;
+}
 .search .bi-search {
   position: absolute;
   top: 10px;
