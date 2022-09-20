@@ -44,6 +44,7 @@
 .nav-item .nav-link {
   color: #313397;
   font-weight: 600;
+  margin: 0 5px;
 }
 .nav-item .nav-link:hover {
   color: #e8722e;
@@ -54,7 +55,7 @@
   background-color: #e8722e;
 }
 .nav-item .active {
-  border-bottom: 1px solid #313397;
+  border-bottom: 1px dotted #313397;
 }
 .card-body p {
   position: absolute;
@@ -71,16 +72,29 @@
   object-fit: cover;
 }
 .footer .bi {
-  color: #313397;
+  color: #ffffff;
   margin: 5px;
   font-size: 1.5em;
+}
+.footer .bi:hover {
+  color: #e8722e;
 }
 ol,
 ul {
   padding-left: 3px;
   list-style: none;
+  margin-top: 5px;
+}
+.footer a {
+  color: #ffffff;
 }
 ol,
 ul a:hover {
   color: #e8722e;
+}
+.footer {
+  border-bottom: 2px solid #ffffff;
+}
+.footer div span {
+  color: #313397;
 }
