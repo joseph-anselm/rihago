@@ -35,6 +35,7 @@
 }
 .bg-danger {
   background-color: #313397 !important;
+  color: #ffffff;
 }
 .bg-warning {
   background-color: #f48635 !important;
@@ -55,4 +56,9 @@
 .card img {
   width: 100%;
   object-fit: cover;
+}
+.bi {
+  font-size: 2rem;
+  margin: 5px;
+  color: #313397;
 }
