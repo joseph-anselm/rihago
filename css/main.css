@@ -84,6 +84,8 @@ ol,
 ul {
   padding-left: 3px;
   list-style: none;
+}
+.footer li {
   margin-top: 5px;
 }
 .footer a {
