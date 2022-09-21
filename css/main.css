@@ -104,10 +104,3 @@ ul a:hover {
 .footer button .bi {
   color: #ffffff;
 }
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2px;
-    padding-left: 2px;
-    font-size: 0.8em;
-  }
-}
