@@ -1,6 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
 .btn-outline-warning {
   color: #f48635;
-  border-color: #313397;
+  border-color: #e8722e;
+}
+.btn-outline-warning:hover {
+  background-color: #e8722e !important;
+  color: #ffffff;
 }
 .btn-warning {
   color: #ffffff;
@@ -8,6 +17,9 @@
 }
 .topbanner h5 {
   color: #e8722e;
+}
+.topbanner h1 {
+  font-family: "Bungee Spice", cursive;
 }
 .bi-person-check {
   margin-right: 5px;
@@ -25,6 +37,10 @@
   background-color: #313397 !important;
   color: #ffffff;
 }
+.badge {
+  background-color: #e8722e !important;
+  color: #ffffff;
+}
 .bg-warning {
   background-color: #f48635 !important;
 }
@@ -33,7 +49,7 @@
   color: #313397;
   font-weight: 400;
   margin: 3px;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .nav-item .nav-link:hover {
@@ -45,13 +61,15 @@
 .nav-item .nav-link .btn-secondary {
   background-color: #e8722e;
 }
-.nav-item .nav-link:active {
-  border-bottom: 1px dotted #313397;
+.nav-item .nav-link:hover {
+  background: #313397;
+}
+.active {
   background-color: #e8722e !important;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .nav-item .bi {
-  font-size: 11px;
+  font-size: 0.9em;
 }
 .card-body p {
   position: absolute;
