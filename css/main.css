@@ -162,3 +162,7 @@ ul a:hover {
 .search button:hover {
   color: #e8722e;
 }
+
+.finalfooter p {
+  font-size: 0.8em;
+}
