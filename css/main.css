@@ -47,7 +47,7 @@
   margin: 0 5px;
 }
 .nav-item .nav-link:hover {
-  color: #e8722e;
+  color: #313397;
   border-bottom: 1px solid #313397;
 }
 
@@ -56,6 +56,7 @@
 }
 .nav-item .active {
   border-bottom: 1px dotted #313397;
+  background-color: #e8722e;
 }
 .card-body p {
   position: absolute;
