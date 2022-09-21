@@ -271,7 +271,7 @@
                 <h1>RiHaGo Auction Limited</h1>
                 <p>First Nigerian Number #1 Auction Plug</p>
                 <button
-                  type="button"
+                  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
                   class="btn btn-danger bg-warning btn-lg mt-3"
                 >
                   Get Started
@@ -650,17 +650,63 @@
               <h4>Subscribe To Auction Alerts</h4>
               <div class="row">
                 <div class="col">
-                  <form action="">
+                  
                     <!-- <input
                       type="text"
                       placeholder="email alerts"
                       class="col-8"
                     /> -->
+<button type="button" class="btn btn-danger bg-danger col-9" data-bs-toggle="modal" data-bs-target="#signUp">
+  Sign up
+</button>
 
-                    <button class="btn btn-primary bg-danger btn-sm col-9">
-                      <i class="bi bi-box-arrow-right"></i> Sign Up
-                    </button>
-                  </form>
+
+<div id="signUp" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Sign Up</h4>
+            <button type="button" class="close" data-bs-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-sm-9 mb-3">
+                  <label class="sr-only" for="exampleInputEmail3"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control form-control-sm mr-1"
+                    id="exampleInputEmail3"
+                    placeholder="Enter email"
+                  />
+                </div>
+                
+                
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="btn btn-secondary btn-sm ml-auto"
+                  data-bs-dismiss="modal"
+                >
+                  Cancel
+                </button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">
+                  Sign Up
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+                    
+                 
                 </div>
               </div>
               <h5 class="mt-3">Auction sites</h5>
