@@ -20,7 +20,7 @@
   <body>
     <!-- Logo and Menu  -->
     <section>
-      <nav class="navbar navbar-expand-lg navbar-collapse-lg">
+      <nav class="navbar navbar-expand-lg" >
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -49,12 +49,6 @@
               <li class="nav-item">
                 <a class="nav-link btn btn-outline-warning" href="#"><i class="bi bi-binoculars-fill"></i> View Assets</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-outline-warning" href="#"><i class="bi bi-file-earmark-person-fill"></i> About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-outline-warning" href="#"><i class="bi bi-telephone-inbound-fill"></i> Contact us</a>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle btn btn-outline-warning"
@@ -62,8 +56,37 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                ><i class="bi bi-translate"></i> 
-                  Language
+                ><i class="bi bi-book"></i> 
+                  User's Guide
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Hard Bid</a></li>
+                  <li><a class="dropdown-item" href="#">Auto Bid</a></li>
+                  <li><a class="dropdown-item" href="#">Buy It Now</a></li>
+                  <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="#">Payment Notification</a></li>
+                  <li><a class="dropdown-item" href="#">Buyer’s Collection</a></li>
+                  <li><a class="dropdown-item" href="#">View Account Statement</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-warning" href="#"><i class="bi bi-telephone-inbound-fill"></i> About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-outline-warning" href="#"><i class="bi bi-telephone-inbound-fill"></i> Contact us</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a
+                  class="nav-link dropdown-toggle btn btn-outline-warning"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                ><i class="bi bi-globe"></i>
+                  
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">English</a></li>
@@ -71,16 +94,11 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex search" role="search">
-              <i class="bi bi-search"></i>
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-warning">Search</button>
-            </form>
+            <div class="search">
+                          
+                          <input type="text" class="form-control" placeholder="Search">
+                          <button class="btn btn-primary bg-danger"><i class="bi bi-search"></i></button>
+                        </div>
 
             <!-- Button trigger modal -->
             <!-- <button
@@ -135,33 +153,33 @@
                       class="btn-close"
                       data-bs-dismiss="modal"
                       aria-label="Close"
-                    ></button>
+                    ></button> 
                   </div> -->
                   <div class="modal-body">
+                  
 
                     <!-- Example single danger button -->
-<div class="btn-group">
-   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#loginForm" aria-expanded="false" aria-controls="collapseWidthExample">
-    Login
-  </button>
-   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#signupForm" aria-expanded="false" aria-controls="collapseWidthExample">
-    Sign Up
-  </button>
-  
+                  <div class="btn-group">
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#loginForm" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Login
+                  </button>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#signupForm" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Sign Up
+                  </button>
+                  
   
 
   
-</div>
-<div class="collapse collapse-horizontal" id="loginForm">
-   <p>Login form</p>
-  </div>
+                </div>
+                <div class="collapse collapse-horizontal" id="loginForm">
+                  <p>Login form</p>
+                  </div>
 
-  <div class="collapse collapse-horizontal" id="signupForm">
-    <p>Sign Up form</p>
-
-  </div>
+                  <div class="collapse collapse-horizontal" id="signupForm">
+                    <p>Sign Up form</p></div>
                     
                   </div>
+                
                   <div class="modal-footer">
                     <button
                       type="button"
@@ -178,7 +196,11 @@
               </div>
             </div>
           </div>
+        
         </div>
+        
+      
+        
       </nav>
     </section>
 
@@ -188,18 +210,18 @@
         <div class="container">
           <div class="row align-items-center pb-5 pt-5">
             <div class="col-12 col-sm-12 col-md-6">
-              <div>
+              <div class="topbanner">
                 <h1>RiHaGo Auction Limited</h1>
-                <p>First Nigerian Number #1 Auction Plug</p>
+                <h5 class="">Efficiently Transparent</h5>
                 <button
                   type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal"
-                  class="btn btn-danger bg-warning btn-lg mt-3"
+                  class="btn btn-danger bg-danger btn-lg mt-3"
                 >
                   Get Started
                 </button>
                 <button
                   type="button"
-                  class="btn btn-warning btn-lg mt-3"
+                  class="btn btn-outline-warning btn-lg mt-3"
                 >
                   View Assets
                 </button>
@@ -494,7 +516,7 @@
             >
           </div>
 
-          <div class="card m-4" style="width: 18rem">
+          <div class="card m-4 mx-auto" style="width: 18rem">
             <a href="#"
               ><img src="img/vehicles-rh1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -531,7 +553,7 @@
     <section class="bg-light mt-5 pt-5 pb-4 footer">
       <div class="container bg-light">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 ">
             <div>
               <img
                 src="img/rihago_logo-2.png"
@@ -542,30 +564,29 @@
               <p>
                Buying at auctions has been around for centuries and this is because it is quick, simple and transparent. At an auction, the price is always right.
               </p>
-              <div>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+             
+              <div class="footercertified mb-3 mt-4">
+                <img src="img/The Institute of Business Development Logo.png"/>
+                <img src="img/Certified Institute of Auctioneers, Nigeria Logo.jpg"/>
+                <img src="img/National Auctioneers Association Logo.jpg"/>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 ">
             <h4>Useful Links</h4>
             <ul>
-              <a href=""><li>Home</li></a>
-              <a href=""><li>About US</li></a>
-              <a href=""><li>Buyer's Guide</li></a>
-              <a href="#"><li>Career</li></a>
+              <a href=""><li>Terms</li></a>
+              <a href=""><li>Auction Methods</li></a>
+              <a href=""><li>User’s Guide</li></a>
+              <a href="#"><li>Our Services</li></a>
               <a href="#"><li>FAQ</li></a>
               <a href="#"><li>Glossary of Auction items</li></a>
-              <a href="#"><li>Contact us</li></a>
+              <a href="#"><li>Testimonials</li></a>
             </ul>
           </div>
-          <div class="col-12 col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 ">
             <div>
-              <h4>Subscribe To Auction Alerts</h4>
+              <h4>Auction Alerts</h4>
               <div class="row">
                 <div class="col">
                   
@@ -627,6 +648,13 @@
                  
                 </div>
               </div>
+              <div class="socials mt-3">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-whatsapp"></i>
+              </div>
               <h5 class="mt-3">Auction sites</h5>
               <p>
                 Auction site: 1 White Dove School Road, Off Cardinal Olubunmi
@@ -638,6 +666,7 @@
 
                 +2347018501000 <span>|</span> +2347038501000
               </div>
+              
             </div>
           </div>
         </div>
@@ -649,7 +678,7 @@
         <div class="row">
           <div class="row justify-content-center mt-3">
             <div class="col-auto">
-              <p>© Copyright 2022 Rihago Auction Limted</p>
+              <p>© Copyright 2022 RiHaGo Auction Limted</p>
             </div>
           </div>
         </div>

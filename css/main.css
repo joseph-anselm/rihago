@@ -6,20 +6,8 @@
   color: #ffffff;
   background-color: #313397;
 }
-.search .bi-search {
-  position: absolute;
-  top: 10px;
-  left: 16px;
-}
-
-.search {
-  position: relative;
-}
-
-.search input {
-  height: 40px;
-  text-indent: 25px;
-  border: 2px solid #d6d4d4;
+.topbanner h5 {
+  color: #e8722e;
 }
 .bi-person-check {
   margin-right: 5px;
@@ -44,19 +32,26 @@
 .nav-item .nav-link {
   color: #313397;
   font-weight: 400;
-  margin: 3px 4px;
+  margin: 3px;
+  font-size: 1em;
 }
+
 .nav-item .nav-link:hover {
-  color: #313397;
+  color: #ffffff;
   border-bottom: 1px solid #313397;
+  background: #313397;
 }
 
 .nav-item .nav-link .btn-secondary {
   background-color: #e8722e;
 }
-.nav-item .active {
+.nav-item .nav-link:active {
   border-bottom: 1px dotted #313397;
-  background-color: #e8722e;
+  background-color: #e8722e !important;
+  color: #ffffff;
+}
+.nav-item .bi {
+  font-size: 11px;
 }
 .card-body p {
   position: absolute;
@@ -74,9 +69,14 @@
 }
 .footer .bi {
   color: #313397;
-  margin: 5px;
-  font-size: 1.5em;
+  margin: 4px;
+  font-size: 1em;
 }
+.footer .socials .bi {
+  margin: 17px;
+  font-size: 1.3em;
+}
+
 .footer .bi:hover {
   color: #e8722e;
 }
@@ -98,9 +98,49 @@ ul a:hover {
 .footer {
   border-bottom: 2px solid #ffffff;
 }
+.footer .footercertified img {
+  width: 50px;
+  margin: 10px;
+}
 .footer div span {
   color: #313397;
 }
 .footer button .bi {
   color: #ffffff;
+}
+
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+}
+
+.search input {
+  height: 40px;
+  text-indent: 10px;
+  border: 2px solid #d6d4d4;
+  font-size: 12px;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid blue;
+}
+
+.search .bi-search {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 50px;
+  font-size: 12px;
+  background: blue;
+}
+.search button:hover {
+  color: #e8722e;
 }
