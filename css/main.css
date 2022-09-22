@@ -10,6 +10,9 @@ body {
   background-color: #e8722e !important;
   color: #ffffff;
 }
+.carousel-inner .active {
+  background: #313397;
+}
 .btn-warning {
   color: #ffffff;
   background-color: #313397;
@@ -66,7 +69,7 @@ body {
 .nav-item .nav-link:hover {
   background: #313397;
 }
-.active {
+.nav-item .active {
   background-color: #e8722e !important;
   color: #ffffff !important;
 }
