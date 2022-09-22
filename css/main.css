@@ -214,7 +214,7 @@ a:hover {
   display: block;
 }
 .sectionmodal .full-height {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 [type="checkbox"]:checked,
@@ -237,6 +237,10 @@ a:hover {
   background-color: #ffffff;
 }
 
+.sectionmodal,
+modal-content {
+  background-color: #e8722e;
+}
 .sectionmodal .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before {
   position: absolute;
@@ -244,7 +248,7 @@ a:hover {
   width: 36px;
   height: 36px;
   border-radius: 10%;
-  color: #ea2c62;
+  color: #f48635;
   background-color: #2a2b38;
   content: "";
   z-index: 20;
