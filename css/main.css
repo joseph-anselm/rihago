@@ -242,7 +242,7 @@ a:hover {
   background-color: #e8722e;
 }
 .sectionmodal .modal-body {
-  padding: 2px;
+  padding: 0;
 }
 .sectionmodal .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before {
