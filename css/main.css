@@ -5,7 +5,6 @@ body {
 }
 .btn-outline-warning {
   color: #f48635;
-  border-color: #e8722e;
 }
 .btn-outline-warning:hover {
   background-color: #e8722e !important;
@@ -17,9 +16,10 @@ body {
 }
 .topbanner h5 {
   color: #e8722e;
+  font-weight: 300;
 }
 .topbanner h1 {
-  font-family: "Merienda One", cursive;
+  font-family: "Poppins", sans-serif;
 }
 .bi-person-check {
   margin-right: 5px;
@@ -32,10 +32,12 @@ body {
 }
 .card {
   background-color: #f8f9fa;
+  border: 1px solid rgb(225, 220, 220);
 }
 .bg-danger {
   background-color: #313397 !important;
   color: #ffffff;
+  border: none;
 }
 .badge {
   background-color: #e8722e !important;
