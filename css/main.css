@@ -10,6 +10,10 @@ body {
   background-color: #e8722e !important;
   color: #ffffff;
 }
+.bannerlist ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
 .carousel-inner .active {
   background: #313893;
 }
@@ -42,6 +46,10 @@ body {
   color: #ffffff;
   border: none;
 }
+.btn .bd-danger:hover {
+  background: white !important;
+  color: #ffffff !important;
+}
 .badge {
   background-color: #ee632b !important;
   color: #ffffff;
@@ -52,7 +60,8 @@ body {
 .btn-outline-warning {
   border: 1px solid #ee632b;
 }
-
+.btn-outline-danger {
+}
 .nav-item .nav-link {
   color: #313397;
   font-weight: 400;
@@ -74,7 +83,7 @@ body {
   background: #333a91;
 }
 .nav-item .active {
-  background-color: #e8722e !important;
+  background-color: #313893 !important;
   color: #ffffff !important;
 }
 .nav-item .bi {
