@@ -468,3 +468,19 @@ a:hover {
   width: auto;
   display: block;
 }
+.footer .bi-facebook {
+  color: #0f91f3;
+}
+.footer .bi-linkedin {
+  color: #0a66c2;
+}
+
+.footer .bi-instagram {
+  color: #cf42bc;
+}
+.footer .bi-twitter {
+  color: #1d9bf0;
+}
+.footer .bi-whatsapp {
+  color: #00e676;
+}
