@@ -42,7 +42,7 @@ body {
   border: 1px solid rgb(225, 220, 220);
 }
 .bg-danger {
-  background-color: #313893 !important;
+  background-color: #3A53A4 !important;
   color: #ffffff;
   border: none;
 }
@@ -63,27 +63,27 @@ body {
 .btn-outline-danger {
 }
 .nav-item .nav-link {
-  color: #313397;
+  color: #3A53A4;
   font-weight: 400;
   margin: 3px;
   font-size: 0.8em;
-  border: 1px solid #333a91;
+  border: 1px solid #3A53A4;
 }
 
 .nav-item .nav-link:hover {
   color: #ffffff;
 
-  background: #333a91 !important;
+  background: #3A53A4 !important;
 }
 
 .nav-item .nav-link .btn-secondary {
   background-color: #e8722e;
 }
 .nav-item .nav-link:hover {
-  background: #333a91;
+  background: #3A53A4;
 }
 .nav-item .active {
-  background-color: #313893 !important;
+  background-color: #3A53A4!important;
   color: #ffffff !important;
 }
 .nav-item .bi {
@@ -125,7 +125,7 @@ ul {
   margin-top: 5px;
 }
 .footer a {
-  color: #333a91;
+  color: #3A53A4;
 }
 ol,
 ul a:hover {
@@ -157,7 +157,7 @@ ul a:hover {
 
 .search input:focus {
   box-shadow: none;
-  border: 2px solid #313893;
+  border: 2px solid #3A53A4;
 }
 
 .search .bi-search {
@@ -173,7 +173,7 @@ ul a:hover {
   height: 40px;
   width: 50px;
   font-size: 12px;
-  background: #333a91;
+  background: #3A53A4;
 }
 .search button:hover {
   color: #e8722e;
