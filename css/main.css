@@ -60,7 +60,7 @@ body {
 
 .nav-item .nav-link:hover {
   color: #ffffff;
-  border-bottom: 1px solid #313397;
+
   background: #333a91 !important;
 }
 
@@ -113,7 +113,7 @@ ul {
   margin-top: 5px;
 }
 .footer a {
-  color: #313397;
+  color: #333a91;
 }
 ol,
 ul a:hover {
@@ -126,9 +126,7 @@ ul a:hover {
   width: 50px;
   margin: 10px;
 }
-.footer div span {
-  color: #313397;
-}
+
 .footer button .bi {
   color: #ffffff;
 }
@@ -147,7 +145,7 @@ ul a:hover {
 
 .search input:focus {
   box-shadow: none;
-  border: 2px solid blue;
+  border: 2px solid #333a91;
 }
 
 .search .bi-search {
@@ -163,7 +161,7 @@ ul a:hover {
   height: 40px;
   width: 50px;
   font-size: 12px;
-  background: blue;
+  background: #333a91;
 }
 .search button:hover {
   color: #e8722e;
@@ -485,6 +483,9 @@ a:hover {
 
 .footercontact a {
   text-decoration: none;
+}
+.footercontact a:hover {
+  color: #e8722e;
 }
 
 .card {
