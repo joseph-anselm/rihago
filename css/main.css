@@ -4,18 +4,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .btn-outline-warning {
-  color: #f48635;
+  color: #ee632b;
 }
 .btn-outline-warning:hover {
   background-color: #e8722e !important;
   color: #ffffff;
 }
 .carousel-inner .active {
-  background: #333a91;
+  background: #313893;
 }
 .btn-warning {
   color: #ffffff;
-  background-color: #313397;
+  background-color: #313893;
 }
 .topbanner h5 {
   color: #e8722e;
@@ -38,16 +38,19 @@ body {
   border: 1px solid rgb(225, 220, 220);
 }
 .bg-danger {
-  background-color: #313397 !important;
+  background-color: #313893 !important;
   color: #ffffff;
   border: none;
 }
 .badge {
-  background-color: #e8722e !important;
+  background-color: #ee632b !important;
   color: #ffffff;
 }
 .bg-warning {
-  background-color: #f48635 !important;
+  background-color: #ee632b !important;
+}
+.btn-outline-warning {
+  border: 1px solid #ee632b;
 }
 
 .nav-item .nav-link {
@@ -145,7 +148,7 @@ ul a:hover {
 
 .search input:focus {
   box-shadow: none;
-  border: 2px solid #333a91;
+  border: 2px solid #313893;
 }
 
 .search .bi-search {
