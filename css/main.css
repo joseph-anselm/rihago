@@ -302,7 +302,7 @@ a:hover {
 .card-back {
   width: 100%;
   height: 100%;
-  background-color: #2a2b38;
+  background-color: #e8722e;
   position: absolute;
   border-radius: 0px;
   left: 0;
@@ -365,13 +365,13 @@ a:hover {
 
 .input-icon {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 18px;
-  height: 48px;
+  height: 38px;
   font-size: 24px;
-  line-height: 48px;
+  line-height: 30px;
   text-align: left;
-  color: #ea2c62;
+  color: #e8722e;
   transition: all 200ms linear;
 }
 
@@ -443,7 +443,7 @@ a:hover {
 .btn:active,
 .btn:focus {
   background-color: #fff;
-  color: #ea2c62;
+  color: #e8722e;
   box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.2);
 }
 
