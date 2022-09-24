@@ -72,8 +72,8 @@ body {
 
 .nav-item .nav-link:hover {
   color: #ffffff;
-
   background: #3A53A4 !important;
+  border:none;
 }
 
 .nav-item .nav-link .btn-secondary {
@@ -361,7 +361,7 @@ a:hover {
   line-height: 22px;
   letter-spacing: 0.5px;
   outline: none;
-  color: #c4c3ca;
+  color: #313397;
   background-color: #1f2029;
   border: none;
   transition: all 200ms linear;
