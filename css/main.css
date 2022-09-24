@@ -13,6 +13,7 @@ body {
 .bannerlist ul {
   list-style-type: disc;
   padding-left: 20px;
+  color: #3A53A4;
 }
 .carousel-inner .active {
   background: #3A53A4;
@@ -27,6 +28,7 @@ body {
 }
 .topbanner h1 {
   font-family: "Poppins", sans-serif;
+  color: #3A53A4;
 }
 .bi-person-check {
   margin-right: 5px;
@@ -61,6 +63,8 @@ body {
   border: 1px solid #ee632b;
 }
 .btn-outline-danger {
+  color: #3A53A4;
+  border: 1px solid #3A53A4;
 }
 .nav-item .nav-link {
   color: #3A53A4;
