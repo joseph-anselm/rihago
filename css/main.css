@@ -201,11 +201,11 @@ a:hover {
 }
 
 .sectionmodal .link {
-  color: #fff;
+  color: #313893;
 }
 
 .sectionmodal .link:hover {
-  color: #ea2c62;
+  color: #EF3C21;
 }
 
 .sectionmodal p {
@@ -250,15 +250,18 @@ a:hover {
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #3A53A4;
 }
 
 .sectionmodal,
 .modal-content {
-  background-color: #e8722e;
+  background-color: #ffffff;
 }
 .sectionmodal .modal-body {
   padding: 0;
+  border: 2px solid #313893;
+  border-radius: 5px;
+  color: #3A53A4;
 }
 .sectionmodal .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before {
@@ -314,7 +317,7 @@ a:hover {
 .card-back {
   width: 100%;
   height: 100%;
-  background-color: #e8722e;
+  background-color: #ffffff;
   position: absolute;
   border-radius: 0px;
   left: 0;
@@ -362,7 +365,7 @@ a:hover {
   letter-spacing: 0.5px;
   outline: none;
   color: #313397;
-  background-color: #1f2029;
+  background-color: #ffffff;
   border: none;
   transition: all 200ms linear;
   box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
@@ -383,7 +386,7 @@ a:hover {
   font-size: 24px;
   line-height: 30px;
   text-align: left;
-  color: #e8722e;
+  color: #3A53A4;
   transition: all 200ms linear;
 }
 
@@ -460,8 +463,8 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: #ffffff;
+  background-color: #313893;
+  color: #313893;
   box-shadow: 0 8px 24px 0 rgba(255, 255, 255, 0.2);
 }
 
